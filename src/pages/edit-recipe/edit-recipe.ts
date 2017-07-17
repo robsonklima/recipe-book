@@ -1,4 +1,3 @@
-import { Ingredient } from './../../models/ingredient';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormArray } from '@angular/forms';
 import { NavParams, ActionSheetController, AlertController, ToastController, NavController } from 'ionic-angular';
