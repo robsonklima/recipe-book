@@ -12,8 +12,6 @@ export class RecipeService {
       this.recipes.push(
         new Recipe(title, description, difficulty, ingredients)
       );
-
-      console.log(this.recipes);
     }
 
     getRecipes() {
